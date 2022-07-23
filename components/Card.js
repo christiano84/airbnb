@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Card(props) {
     let badgeText;
-    console.log(props.stats.rating.toFixed(1));
+
     if (props.openSpots == 0) {
         badgeText = "SOLD OUT";
     } else if (props.location === "Online") {
@@ -24,14 +24,3 @@ export default function Card(props) {
         </div>
     )
 };
-
-/*
-{
-img: "katie-zaferes.png"
-, rating: "5.0"
-, reviewCount: 6
-, country: "USA"
-, title: "Life Lessons with Katie Zaferes"
-, price: 136
-}
-*/

@@ -4,11 +4,6 @@ import Hero from "./components/Hero"
 import Card from "./components/Card"
 import Data from "./Data"
 
-/*
-Challenge: Build the Navbar component.
-Check the Figma file for the design specifics.
-*/
-
 export default function App() {
 
     const cardElements = Data.map(item =>
